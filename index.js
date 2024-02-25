@@ -57,3 +57,11 @@ document.addEventListener('DOMContentLoaded', function() {
         });
     });
 });
+
+document.addEventListener('DOMContentLoaded', function() {
+    let menu = document.querySelector('div.menu-burg')
+    let iconclose = document.querySelector('span.icon-close')
+
+    iconclose.addEventListener("click", function(){
+        menu.classList.add('hide')
+    }) 

@@ -79,7 +79,6 @@ div.event-banner{
     height: 250px;
     background-repeat: no-repeat;
     background-size: contain;
-    width: 20px;
 }
 
 section.sobre{
@@ -157,6 +156,7 @@ div.dendereco{
 
 section.onde iframe{
     margin-bottom: 50px;
+    width: 90vw;
 }
 
 section.minfo{

@@ -79,6 +79,7 @@ div.event-banner{
     height: 250px;
     background-repeat: no-repeat;
     background-size: contain;
+    width: 20px;
 }
 
 section.sobre{

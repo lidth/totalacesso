@@ -30,3 +30,30 @@ document.addEventListener('DOMContentLoaded', function() {
         });
     });
 });
+
+
+document.addEventListener('DOMContentLoaded', function() {
+    const buttons = document.querySelectorAll('.lineup button');
+    // Seleciona os elementos de parágrafo pela classe específica
+    const p1 = document.querySelector('.lineup-value-1');
+    const p2 = document.querySelector('.lineup-value-2');
+
+    buttons.forEach(function(btn, index) {
+        btn.addEventListener('click', function() {
+            // Remove a classe 'lineup-btn-active' de todos os botões
+            buttons.forEach(b => b.classList.replace('lineup-btn-active', 'lineup-btn'));
+            
+            // Adiciona a classe 'lineup-btn-active' ao botão clicado
+            this.classList.replace('lineup-btn', 'lineup-btn-active');
+
+            // Mostra o primeiro texto e esconde o segundo se o primeiro botão for clicado
+            if (index === 0) { // Primeiro botão
+                p1.classList.remove('hide');
+                p2.classList.add('hide');
+            } else if (index === 1) { // Segundo botão
+                p1.classList.add('hide');
+                p2.classList.remove('hide');
+            }
+        });
+    });
+});

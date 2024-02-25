@@ -10,7 +10,7 @@
 
 header{
     display: flex;
-    height: 50px;
+    height: 65px;
     border: 1px solid;
     align-items: center;
     justify-content: space-between;
@@ -70,7 +70,8 @@ div.isocial{
     justify-content: center;
     align-items: center;
     width: fit-content;
-    padding: 5px;
+    padding: 6px;
+    margin-right: 5px;
 }
 
 div.event-banner{
@@ -107,7 +108,7 @@ h2.lineup-title{
 
 button.lineup-btn-active{
     display: block;
-    width: 350px;
+    width: 300px;
     margin: 0 0 16px;
     padding: 9px 0px;
     background-color: black;
@@ -115,6 +116,7 @@ button.lineup-btn-active{
     border-radius: 30px;
     font-size: 16px;
     cursor: pointer;
+    margin: auto;
 }
 
 button.lineup-btn{

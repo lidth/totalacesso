@@ -79,10 +79,25 @@ menuclose.addEventListener("click", fecharmenu)
 let ajudabtn = document.getElementById('ajuda-btn');
 let ajudamenu = document.getElementById('dajuda');
 
-ajudabtn.addEventListener("click", function(){
-    if (ajudamenu.classList.contains('hide')) {
-        ajudamenu.classList.remove('hide');
-    } else {
+// Função para alternar a visibilidade da div de ajuda
+function toggleAjuda() {
+    ajudamenu.classList.toggle('hide');
+}
+
+// Evento para abrir/fechar a div de ajuda
+ajudabtn.addEventListener("click", function(event){
+    toggleAjuda();
+    event.stopPropagation(); // Isso impede que o evento se propague para o document
+});
+
+// Evento para fechar a div de ajuda ao clicar em qualquer lugar
+document.addEventListener("click", function(){
+    if (!ajudamenu.classList.contains('hide')) {
         ajudamenu.classList.add('hide');
     }
+});
+
+// Impede que o evento de clique dentro da div de ajuda propague para o document
+ajudamenu.addEventListener("click", function(event){
+    event.stopPropagation();
 });

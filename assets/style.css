@@ -172,7 +172,7 @@ div.event-banner{
     background-image: url(https://cdn2.totalacesso.com/events/5986/icarus_apoteosa_740x475_0a8a4ab0-9280-4db2-85d1-53e8b7b01274.jpg);
     height: 250px;
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: cover;
 }
 
 section.sobre{

@@ -74,3 +74,15 @@ function fecharmenu(){
 
 menuopen.addEventListener("click", abrirmenu)
 menuclose.addEventListener("click", fecharmenu)
+
+
+let ajudabtn = document.getElementById('ajuda-btn');
+let ajudamenu = document.getElementById('dajuda');
+
+ajudabtn.addEventListener("click", function(){
+    if (ajudamenu.classList.contains('hide')) {
+        ajudamenu.classList.remove('hide');
+    } else {
+        ajudamenu.classList.add('hide');
+    }
+});

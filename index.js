@@ -64,9 +64,12 @@ let menuclose = document.querySelector('span.menucloseicon');
 
 function abrirmenu(){
     menu.classList.remove('hide')
+    document.body.style.overflow = 'hidden';
 }
 function fecharmenu(){
     menu.classList.add('hide')
+    document.body.style.overflow = '';
+
 }
 
 menuopen.addEventListener("click", abrirmenu)

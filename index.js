@@ -58,10 +58,16 @@ document.addEventListener('DOMContentLoaded', function() {
     });
 });
 
-document.addEventListener('DOMContentLoaded', function() {
-    let menu = document.querySelector('div.menu-burg')
-    let iconclose = document.querySelector('span.icon-close')
+let menuopen = document.querySelector('span.menuopenicon');
+let menu = document.querySelector('div.menu-burg');
+let menuclose = document.querySelector('span.menucloseicon');
 
-    iconclose.addEventListener("click", function(){
-        menu.classList.add('hide')
-    }) 
+function abrirmenu(){
+    menu.classList.remove('hide')
+}
+function fecharmenu(){
+    menu.classList.add('hide')
+}
+
+menuopen.addEventListener("click", abrirmenu)
+menuclose.addEventListener("click", fecharmenu)

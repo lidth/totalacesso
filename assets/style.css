@@ -17,6 +17,7 @@ div.menu-burg{
     bottom: 0;
     left: 0;
     overflow-y: auto;
+    padding-top: 65px;
 }
 
 div.menu-header{
@@ -114,8 +115,10 @@ div#dajuda{
     font-size: 12px;
     padding: 20px;
     border-radius: 5px;
-    right: 20px;
+    right: 10px;
     top: 100%;
+    z-index: 15;
+    width: 200px;
 }
 
 div.dajuda-links{
@@ -170,6 +173,12 @@ header{
     align-items: center;
     justify-content: space-between;
     padding: 0px 12px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 10;
+    margin-bottom: 90px;
+    background-color: white;
 }
 
 header .hicon{
@@ -180,6 +189,7 @@ main{
     background-color: black;
     color: white;
     padding: 30px;
+    padding-top: 85px;
 }
 
 main p.date{

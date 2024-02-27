@@ -58,22 +58,21 @@ document.addEventListener('DOMContentLoaded', function() {
     });
 });
 
+
 let menuopen = document.querySelector('span.menuopenicon');
 let menu = document.querySelector('div.menu-burg');
 let menuclose = document.querySelector('span.menucloseicon');
 
-function abrirmenu(){
-    menu.classList.remove('hide')
-    document.body.style.overflow = 'hidden';
-}
-function fecharmenu(){
-    menu.classList.add('hide')
-    document.body.style.overflow = '';
-
+function toggleMenu() {
+    menu.classList.toggle('hide');
+    // Se o menu estiver aberto (hide não estiver presente), desabilita o scroll. Caso contrário, habilita.
+    document.body.style.overflow = menu.classList.contains('hide') ? '' : 'hidden';
 }
 
-menuopen.addEventListener("click", abrirmenu)
-menuclose.addEventListener("click", fecharmenu)
+// Utilizando a mesma função para ambos os cliques, tanto para abrir quanto para fechar
+menuopen.addEventListener("click", toggleMenu);
+menuclose.addEventListener("click", toggleMenu);
+
 
 
 let ajudabtn = document.getElementById('ajuda-btn');

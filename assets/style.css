@@ -185,11 +185,30 @@ header .hicon{
     cursor: pointer;
 }
 
+div.search{
+    border-top: 1px solid rgb(199, 196, 196);
+    border-bottom: 3px solid #00bdd9;
+    background-color: white;
+    height: 55px;
+    position: fixed;
+    top: 65px;
+    display: flex;
+    align-items: center;
+    padding: 0px 12px;
+    width: 100%;
+    color: #292929;
+}
+
+p.search-text{
+    border: 0;
+    margin-left: 15px;
+}
+
 main{
     background-color: black;
     color: white;
     padding: 30px;
-    padding-top: 85px;
+    padding-top: 145px;
 }
 
 main p.date{

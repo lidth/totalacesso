@@ -67,6 +67,7 @@ function toggleMenu() {
     menu.classList.toggle('hide');
     // Se o menu estiver aberto (hide não estiver presente), desabilita o scroll. Caso contrário, habilita.
     document.body.style.overflow = menu.classList.contains('hide') ? '' : 'hidden';
+    search.style.display = 'none';
 }
 
 // Utilizando a mesma função para ambos os cliques, tanto para abrir quanto para fechar
@@ -99,4 +100,22 @@ document.addEventListener("click", function(){
 // Impede que o evento de clique dentro da div de ajuda propague para o document
 ajudamenu.addEventListener("click", function(event){
     event.stopPropagation();
+});
+
+let search = document.querySelector('div.search')
+let searchicon = document.querySelector('span.searchicon')
+
+function toggleSearch() {
+    // Se o menu estiver aberto, feche-o
+    if (!menu.classList.contains('hide')) {
+        toggleMenu(); // Chama a função que já existe para fechar o menu
+    }
+    // Alterna o estado de exibição da div de pesquisa
+    search.style.display = search.style.display == 'none' ? '' : 'none';
+}
+
+
+searchicon.addEventListener("click", function(event){
+    toggleSearch();
+    event.stopPropagation(); // Impede que o evento se propague para o document
 });

@@ -207,3 +207,174 @@ p.search-text{
     border: 0;
     margin-left: 15px;
 }
+
+div.event-header{
+    padding: 85px 12px 10px;
+    background-color: #292929;
+}
+
+h1.event-header-title{
+    font-size: 16px;
+    color: white;
+}
+
+div.event-header-date{
+    display: flex;
+    color: #e1e1e1;
+    font-weight: 300;
+    align-items: center;
+    margin: 10px 0 10px;
+    font-size: 15px;
+}
+
+button.event-header-btn-mapa{
+    width: 100%;
+    margin: auto;
+    display: block;
+    border-radius: 5px;
+    color: white;
+    background: #404040;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+    font-weight: 300;
+    font-size: 11px;
+}
+
+div.cupom{
+    text-align: center;
+    padding: 13.5px 12px;
+    background-color: #fafafa;
+    border-bottom: 1px solid rgb(216, 214, 214);
+}
+
+p.cupomtext{
+    font-size: 18px;
+    color: #292929;
+    margin: 0px 0px 15px;
+    color: #292929;
+    font-weight: bold;
+}
+
+input#icupom{
+    width: 100%;
+    height: 45px;
+    border-radius: 30px;
+    border: 1px solid rgb(179, 177, 177);
+    text-align: center;
+    margin-bottom: 15px;
+    font-size: 16px;
+    outline: none;
+}
+
+button.cupom-btn{
+    width: 100%;
+    border: 1px solid #00a1ba;
+    height: 45px;
+    background-color: white;
+    color: #00a1ba;
+    font-size: 16px;
+    border-radius: 30px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+section.sseletores{
+    padding: 0 12px;
+    margin-top: 30px;
+}
+
+div.select-day{
+}
+
+div.selectday-cont1{
+    text-align: center;
+    position: relative;
+    margin-bottom: 10px;
+}
+
+
+h2.select-title{
+    font-size: 18px;
+    display: inline-block;
+    position: absolute;
+    left: 0%;
+}
+
+span.arrowsetor{
+    color: rgb(146, 145, 145);
+}
+
+span.arrowsetor:active{
+    color: #00a1ba;
+}
+
+div.selectday-cont2{
+    border: 1px solid rgb(182, 180, 180);
+    padding: 0 10px;
+    border-radius: 5px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+p.selectday-date-text{
+    color: #00a1ba;
+    font-weight: bold;
+    margin: 20px 0px 5px;
+    font-size: 18px;
+}
+
+p.selectday-dayhour-text{
+    font-size: 14px;
+    color: #292929;
+
+}
+
+span.selectday-arrow{
+    font-size: 32px;
+    color: #00a1ba;
+    font-weight: bold;
+}
+
+p.selectday-value{
+    margin-bottom: 20px;
+}
+
+div.seletores-list{
+    text-align: center;
+    border: 1px solid rgb(182, 180, 180);
+    border-radius: 10px;
+    padding: 20px 0px 0px;
+    margin-bottom: 30px;
+}
+
+p.seletor-name{
+    color: #00a1ba;
+    font-weight: bold;
+}
+
+div.seletor-options{
+    text-align: center;
+    border: 1px solid rgb(182, 180, 180);
+    border-left: 5px solid rgb(182, 180, 180);
+    padding: 18.75px;
+    margin-bottom: 20px;
+}
+
+h2.seletor-opt-name{
+    font-size: 16px;
+    color: #292929;
+    margin-bottom: 10px;
+    font-weight: 400;
+}
+
+div.dim-add{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+p.dimadd-value{
+    margin: 0px 20px 0px
+}

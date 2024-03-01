@@ -97,10 +97,10 @@ button.btn-logar{
     display: flex;
     justify-content: center;
     align-items: center;
+    cursor: pointer;
 }
 
 .dlogar-face span{
-
     padding: 0 0 0 14px;
 }
 
@@ -130,5 +130,4 @@ div.login-footer{
 
 div.login-footer a{
     color: #888888;
-
 }

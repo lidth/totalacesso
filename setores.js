@@ -51,3 +51,7 @@ document.addEventListener('DOMContentLoaded', (event) => {
         });
     });
 });
+function updateCarrinho() {
+    // ...código para atualizar o carrinho...
+    localStorage.setItem('totalCarrinho', totalPrice.toFixed(2));
+}

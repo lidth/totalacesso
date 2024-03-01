@@ -1,0 +1,134 @@
+@charset "UTF-8";
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+section.login-sec{
+    padding: 0 15px;
+}
+
+div.login-cont1{
+    margin-top: 85px;
+    text-align: center;
+    margin-bottom: 32px;
+}
+
+div.login-cont1 h1{
+    font-size: 24px;
+    margin: 0 0 4px;
+}
+
+div.login-cont2{
+    
+}
+
+div.login-cont2 form input{
+    display: block;
+    margin: auto;
+    width: 100%;
+    padding: 0 16px;
+    height: 56px;
+    font-size: 16px;
+    border: 1px solid black;
+    border-radius: 5px;
+    outline: none;
+    focus
+}
+
+div.login-cont2 form input[type="email"]{
+    margin-bottom: 15px;
+}
+div.login-cont2 form input:focus{
+    border: 2px solid #02788a;
+    outline: none;
+}
+
+a.forgotpass{
+    display: block;
+    text-decoration: underline black;
+    color: black;
+    margin-top: 30px;
+    text-align: right;
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+
+input.entrar-btn{
+    width: 100%;
+    display: block;
+    padding: 18px;
+    border-radius: 30px;
+    border: none;
+    outline: none;
+    background-color: #00a1ba;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+div.dcadastre-btn{
+    text-align: center;
+    border-bottom: 2px solid rgb(180, 178, 178);
+    padding: 32px 0;
+    margin-bottom: 32px;
+}
+
+div.dcadastre-btn p {
+    font-size: 16px;
+
+}
+
+div.dcadastre-btn a{
+    text-decoration: underline black;
+    color: black;
+    font-weight: bold;
+}
+
+button.btn-logar{
+    display: block;
+    padding: 10px 25px;
+    width: 100%;
+    border-radius: 30px;
+    border: none;
+    outline: none;
+    height: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.dlogar-face span{
+
+    padding: 0 0 0 14px;
+}
+
+button.btn-google{
+    background-color: white;
+    border: 1px solid black;
+    margin-bottom: 20px;
+    font-size: 16px;
+    color: #000000BA;
+    font-weight: 600;
+}
+
+button.btn-face{
+    background-color: #1877f2;
+    color: white;
+    font-size: 16px;
+    padding: 0 0 0 13px;
+    font-weight: bold;
+}
+
+div.login-footer{
+    text-align: center;
+    font-size: 12px;
+    margin-top: 30px;
+    padding: 0 25px;
+}
+
+div.login-footer a{
+    color: #888888;
+
+}

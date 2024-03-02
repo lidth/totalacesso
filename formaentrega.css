@@ -1,0 +1,157 @@
+section.sec-entrega{
+    padding: 20px 15px;
+}
+
+div.receber-ingresso{
+    margin: 0 0 20px;
+}
+
+h3.comoreceber-title{
+    font-size: 27.2px;
+    text-align: center;
+    margin: 0 0 5px;
+    font-weight: 500;
+}
+
+p.comoreceber-text{
+    text-align: center;
+    margin: 0 0 15px;
+}
+
+div.receber-app{
+    display: flex;
+    width: 100%;
+    background-color: #EDEEF2;
+    border-radius: 5px;
+    justify-content: space-between;
+    padding: 15px;
+    margin-bottom: 5px;
+}
+
+div.app-container{
+    display: flex;
+    color: black;
+    align-items: center;
+}
+
+span.icircle{
+    color: #00bfd0;
+    background-color: #00bdd0;
+    border: none;
+    border-radius: 50%;
+    border: 2px solid black;
+    margin-right: 5px;
+    font-size: 15px;
+}
+
+div.app-container2{
+    font-weight: 100;
+}
+
+div.app-more{
+    padding: 20px 20px 10px;
+    border: 1px solid rgb(216, 215, 215);
+}
+
+p.appmore-text{
+    color: #797979;
+}
+
+h3.recebernome-title{
+    font-size: 27.2px;
+    text-align: center;
+    margin: 0 0 5px;
+}
+
+p.recebernome-text{
+    text-align: center;
+    margin-bottom: 5px;
+}
+
+div.dnome{
+    background-color: #EDEEF2;
+    padding: 15px;
+    margin-bottom: 15px;
+}
+
+p.evento-name{
+    font-weight: 600;
+    font-size: 14px;
+    margin: 0 0 5px;
+}
+
+input#inomeingresso{
+    width: 100%;
+    border-radius: 5px;
+    padding: 6px 12px;
+    border: 1px solid rgb(206, 202, 202);
+    outline: none;
+    height: 38px;
+}
+
+div.seupedido{
+    margin: 0 0 15px;
+}
+
+div.seupedido h3{
+    text-align: center;
+    font-size: 27.2px;
+    font-weight: 500;
+    margin: 0 0 5px;
+}
+
+div.seupedido p {
+    text-align: center;
+    color: #4f4f4f;
+}
+
+div.pedido-details{
+    border: 1px solid rgb(226, 225, 225);
+    border-radius: 5px;
+}
+
+div.details-bggrey{
+    padding: 8px 10px;
+    background-color: #ECECEC;
+    text-align: center;
+    font-weight: bold;
+}
+
+p.details-evntname{
+    font-size: 18px;
+    color: #292929;
+}
+
+div.details-bgwhite{
+    display: flex;
+    padding: 8px 10px;
+    justify-content: space-between;
+    font-size: 17px;
+    border-bottom: 1px solid rgb(226, 225, 225);
+    align-items: center;
+}
+
+div.details-bgwhitecenter{
+    text-align: center;
+    padding: 8px 10px;
+    font-size: 15px;
+}
+
+.bold{
+    font-weight: bold;
+}
+
+a.entrega-btn{
+    width: 100%;
+    background-color: #00bdd9;
+    text-decoration: none;
+    color: white;
+    padding: 8px 30px 10px;
+    border-radius: 30px;
+    height: 48px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    margin-top: 15px;
+}
